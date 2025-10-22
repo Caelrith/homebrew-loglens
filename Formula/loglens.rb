@@ -2,25 +2,25 @@
 class Loglens < Formula
   desc "A blazingly fast, structured log query tool"
   homepage "https://getloglens.com"
-  version "1.4.2" # <-- Updated version
+  version "1.5.0" # <-- Updated version
   license "Proprietary" # Or your specific license
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://download.getloglens.com/v1.4.2/loglens-x86_64-macos.tar.gz" # <-- Updated URL
-      sha256 "3842b44165b87b53fb073c5ae79ed3e8a29bfc24a58f7d95a048663e0393ff0f" # <-- Updated SHA256
+      url "https://download.getloglens.com/v1.5.0/loglens-x86_64-macos.tar.gz" # <-- Updated URL
+      sha256 "c544f7910391ef9be048ecd01de7d4d5ff4b4474a55ee7d42e34221ecf52247a" # <-- Updated SHA256
     elsif Hardware::CPU.arm?
-      url "https://download.getloglens.com/v1.4.2/loglens-aarch64-macos.tar.gz" # <-- Updated URL
-      sha256 "a1bcfeb6b02cb29e007a2279ac208cb82a4877a172514da481e60892a875ccc0" # <-- Updated SHA256
+      url "https://download.getloglens.com/v1.5.0/loglens-aarch64-macos.tar.gz" # <-- Updated URL
+      sha256 "7adb2bc3e0171bd58a36e5c1874631a70e0ec9c956ae48b35f9ba0fddc98657b" # <-- Updated SHA256
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://download.getloglens.com/v1.4.2/loglens-x86_64-linux.tar.gz" # <-- Updated URL
-      sha256 "997b25af70529bed73f387f2c8a2990e829847b99ce72b0f3b3e62d2b6370d67" # <-- Updated SHA256
+      url "https://download.getloglens.com/v1.5.0/loglens-x86_64-linux.tar.gz" # <-- Updated URL
+      sha256 "a5384b9e83f608a0c760bf0a3a248e11dcb19d3d9dff0d078ed9151b4d274b10" # <-- Updated SHA256
     elsif Hardware::CPU.arm?
-      url "https://download.getloglens.com/v1.4.2/loglens-aarch64-linux.tar.gz" # <-- Updated URL
+      url "https://download.getloglens.com/v1.5.0/loglens-aarch64-linux.tar.gz" # <-- Updated URL
       sha256 "9eb52ee46c7ab5ea4ca0982415da99fded1b7d7354f75e50847bdae6cb44eb66" # <-- Updated SHA256
     end
   end
